@@ -26,11 +26,11 @@ const About = () => {
   return (
     <>
         <h2 className='head-text'>
-        We strive to <span> push the boundaries</span> <br /> of immersive content to <span> manifest our client's imaginations.</span> 
+        I strive to <span> push the boundaries</span> <br /> of immersive content today to <span> manifest the imaginations of tomorrow.</span> 
         </h2>
         <br />
         <br />
-        <h2>Meet The Team</h2>
+        <h2>Meet Victoria</h2>
 
         <div className='app__profiles'>
         {abouts.map((about, index) =>(

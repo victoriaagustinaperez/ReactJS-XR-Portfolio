@@ -38,9 +38,9 @@ const Work = () => {
 
   return (
     <>
-      <h2>Explore Our Work</h2> 
+      <h2>Past Work</h2> 
       <div className="app__work-filter">
-        {['AR', 'VR', 'MR', 'ALL'].map((item, index) => (
+        {['AR/MR', 'VR', '2D GAMES', 'ALL'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -79,7 +79,9 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                {/* <a href={work.codeLink} target="_blank" rel="noreferrer">
+
+                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                  
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
@@ -88,7 +90,7 @@ const Work = () => {
                   >
                     <AiFillGithub />
                   </motion.div>
-                </a> */}
+                </a>
               </motion.div>
             </div>
 

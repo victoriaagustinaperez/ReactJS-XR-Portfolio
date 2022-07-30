@@ -40,12 +40,12 @@ const Footer = () => {
     <br/>
     <br/>
     <br/>
-      <h2>Let's talk about your ideas</h2>
+      <h2>Let's exchange ideas</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:victoria@extendreality.co" className="p-text">victoria@extendreality.co</a>
+          <a href="mailto:victoriathecompeng@gmail.com" className="p-text">victoriathecompeng@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       )}
         <div className="copyright">
-        <p className="p-text">@extendreality.co 2022.</p>
+        <p className="p-text">@xrbyvictoria.com since 2022.</p>
         <p className="p-text">All rights reserved.</p>
         </div>
     </>

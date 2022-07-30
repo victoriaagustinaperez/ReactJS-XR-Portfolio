@@ -29,11 +29,12 @@ const Header = () => (
           <div style={{marginLeft: 20}}>
             {/* <h1 className='head-text'>EXTENDREALITY.CO</h1>
             <p className='p-text'>XR STUDIO IN MIAMI, FL</p> */}
-            <p className='head-text'>Create the future with us.</p>
+            <p className='head-text'>Meet Victoria Pérez, XR Developer</p>
           </div>
         </div>
 
         <div className='tag-cmp app__flex'>
+          <p className='p-text'>PROVIDING:</p>
           <p className='p-text'>AR Apps and Services</p>
           <p className='p-text'>VR Design and Development</p>
           <p className='p-text'>MR Interactive Experiences</p>
@@ -46,9 +47,9 @@ const Header = () => (
       transition={{ duration: 1, delayChildren: 1 }}
       className='app__header-img'
     >
-      <img src={images.profile} alt="profile_bg" />
+      <img src={images.hololens} alt="hololens" />
       <motion.img
-        whileInView={ {scale: [0,1] }}
+        whileInView={ {scale: [0,.5] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
         src={images.circle}
         alt="profile_circle"
@@ -61,7 +62,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.xr].map((circle, index) => (
+      {[images.questicon, images.hololensicon].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="circle" />
         </div>

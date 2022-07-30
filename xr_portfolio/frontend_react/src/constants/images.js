@@ -41,16 +41,24 @@ import blender from '../assets/blender.png';
 import vuforia from '../assets/vuforia.png';
 import threedsmax from '../assets/threedsmax.png';
 import smalllogo from '../assets/smalllogo.png';
+import xrbyvictoria from '../assets/xrbyvictoria.gif';
 import ar from '../assets/ar.jpg';
 import vr from '../assets/vr.jpg';
 import mr from '../assets/mr.jpg';
 import xr from '../assets/xr.png';
+import xrbw from '../assets/xrbw.png';
 import arr from '../assets/arr.jpg';
-import vrr from '../assets/vrr.jpg';
+import vrr from '../assets/vrr.png';
 import mrr from '../assets/mrr.png';
 import argif from '../assets/giphyforar.gif';
 import vrgif from '../assets/giphyforvr.gif';
 import mrgif from '../assets/giphyformr.gif';
+import hololens from '../assets/hololens.png';
+import hololensicon from '../assets/hololensicon.png';
+import questicon from '../assets/questicon.png';
+import aricon from '../assets/aricon.png';
+
+import { icons } from 'react-icons/lib';
 
 
 export default {
@@ -94,14 +102,20 @@ export default {
   vuforia,
   threedsmax,
   smalllogo,
+  xrbyvictoria,
   ar,
   vr,
   mr,
   xr,
+  xrbw,
   argif,
   vrgif,
   mrgif,
   arr,
   vrr,
   mrr,
+  hololens,
+  hololensicon,
+  questicon,
+  aricon,
 };

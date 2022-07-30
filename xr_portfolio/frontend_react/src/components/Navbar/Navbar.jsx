@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.smalllogo} alt="smalllogo" />
+        <img src={images.xrbyvictoria} alt="xrbyvictoria" />
       </div>
       <ul className="app__navbar-links">
         {['home', 'work', 'about', 'skills', 'contact'].map((item) => (
