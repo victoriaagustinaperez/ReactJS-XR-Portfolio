@@ -30,7 +30,7 @@ const About = () => {
         </h2>
         <br />
         <br />
-        <h2>Meet Victoria</h2>
+        <h2>Meet Me</h2>
 
         <div className='app__profiles'>
         {abouts.map((about, index) =>(
