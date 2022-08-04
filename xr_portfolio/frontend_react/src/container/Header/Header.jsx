@@ -4,6 +4,7 @@ import {motion} from 'framer-motion';
 import {AppWrap} from '../../wrapper/';
 import {images} from '../../constants';
 import './Header.scss';
+import Typewriter from 'typewriter-effect';
 
 const scaleVariants = {
   whileInView: {
@@ -29,7 +30,15 @@ const Header = () => (
           <div style={{marginLeft: 20}}>
             {/* <h1 className='head-text'>EXTENDREALITY.CO</h1>
             <p className='p-text'>XR STUDIO IN MIAMI, FL</p> */}
-            <p className='head-text'>Meet Victoria Pérez, XR Developer</p>
+            <p className='head-text'>Meet Victoria Pérez, 
+            <Typewriter
+              options={{
+                strings: ['XR Developer', 'Creative Technologist', 'Metaverse Visionary',],
+               autoStart: true,
+                loop: true,
+              }}
+            />
+</p>
           </div>
         </div>
 
