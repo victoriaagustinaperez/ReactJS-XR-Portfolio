@@ -40,7 +40,7 @@ const Work = () => {
     <>
       <h2>Past Work</h2> 
       <div className="app__work-filter">
-        {['AR/MR', 'VR', '2D GAMES', 'ALL'].map((item, index) => (
+        {['AR/MR', 'VR', 'GAMES', 'ALL'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
