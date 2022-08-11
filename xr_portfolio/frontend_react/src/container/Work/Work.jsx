@@ -38,7 +38,7 @@ const Work = () => {
 
   return (
     <>
-      <h2>Past Work</h2> 
+      <h2>Selected Projects</h2> 
       <div className="app__work-filter">
         {['AR/MR', 'VR', 'GAMES', 'ALL'].map((item, index) => (
           <div
