@@ -14,6 +14,11 @@ export default {
         type: 'string',
       },
       {
+        name: 'tech',
+        title: 'Technology Used',
+        type: 'string',
+      },
+      {
         name: 'description',
         title: 'Description',
         type: 'string',

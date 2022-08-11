@@ -1,20 +1,30 @@
 export default {
     name:'workExperience',
-    title:'Work Experience',
+    title:' ',
     type:'document',
     fields:[
-           {name:'name',
-               title:'name',
+           {   name:'name',
+               title:'Company or Event Name',
                type:'string'
+            },            
+            {   
+                name:'position',
+                title:'Position Held',
+                type:'string'
+            }, 
+            {
+                name:'project',
+                title:'Project Name',
+                type:'string'
             },
             {
-                name:'company',
-                title:'Company',
+                name:'technologyused',
+                title:'Technology Used',
                 type:'string'
             },
             {
                 name:'desc',
-                title:'Desc',
+                title:'Description',
                 type:'string'
             }
     ]
