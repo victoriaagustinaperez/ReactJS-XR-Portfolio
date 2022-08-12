@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-      <p className="p-text">@xrbyvictoria.com since 2022.</p>
+      <p className="p-text">Made with Love © 2022 Victoria Agustina Pérez</p>
       <p className="p-text">All rights reserved.</p>
       </div>
     </>
