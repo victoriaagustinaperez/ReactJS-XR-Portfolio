@@ -43,10 +43,9 @@ const Header = () => (
         </div>
 
         <div className='tag-cmp app__flex'>
-          <p className='p-text'>PROVIDING:</p>
-          <p className='p-text'>AR Apps and Services</p>
-          <p className='p-text'>VR Design and Development</p>
-          <p className='p-text'>MR Interactive Experiences</p>
+          <p className='p-text'>• AR Apps and Services</p>
+          <p className='p-text'>• VR Design and Development</p>
+          <p className='p-text'>• MR Interactive Experiences</p>
         </div>
       </div>
     </motion.div>
