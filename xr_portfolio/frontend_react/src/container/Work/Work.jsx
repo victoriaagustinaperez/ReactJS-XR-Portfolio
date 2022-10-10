@@ -96,10 +96,12 @@ const Work = () => {
 
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>{work.role}</p>
-              <p className="p-text" style={{ marginTop: 10 }}>{work.tech}</p>
+              <h4 className="p-text" style={{ marginTop: 10 }}>{work.summary}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
-
+              <h4 className="p-text" style={{ marginTop: 10 }}>{work.typerole}</h4>
+              <p className="p-text" style={{ marginTop: 10 }}>{work.role}</p>
+              <h4 className="p-text" style={{ marginTop: 10 }}>{work.typetoolsused}</h4>
+              <p className="p-text" style={{ marginTop: 10 }}>{work.tech}</p>
 
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>

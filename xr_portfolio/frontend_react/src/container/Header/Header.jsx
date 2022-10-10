@@ -32,13 +32,14 @@ const Header = () => (
             <p className='p-text'>XR STUDIO IN MIAMI, FL</p> */}
             <p className='head-text'>Meet Victoria Pérez, 
             <Typewriter
-              options={{
-                strings: ['XR Developer', 'Creative Technologist', 'Metaverse Visionary',],
-               autoStart: true,
+              options={{                
+              // strings: ['XR Developer', 'C# Programmer', 'VFX & Shader Graph Artist',],
+              strings: ['XR Developer', 'Creative Technologist', 'Metaverse Visionary',],
+                autoStart: true,
                 loop: true,
               }}
             />
-</p>
+            </p>
           </div>
         </div>
 

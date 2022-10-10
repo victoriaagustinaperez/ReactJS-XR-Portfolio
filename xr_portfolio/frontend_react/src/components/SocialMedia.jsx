@@ -19,7 +19,7 @@ const SocialMedia = () => (
           </a>
     </div>
     <div>
-          <a href="https://discord.gg/UTfHRWk8" target="_blank" rel="noreferrer">
+          <a href="https://discord.gg/zZq4yRmF34" target="_blank" rel="noreferrer">
           <BsDiscord color="#738adb"/>
           </a>
     </div>

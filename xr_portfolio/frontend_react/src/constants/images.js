@@ -25,9 +25,6 @@ import hololensicon from '../assets/hololensicon.png';
 import questicon from '../assets/questicon.png';
 import mobile from '../assets/mobile.png';
 
-
-import { icons } from 'react-icons/lib';
-
 export default {
   email,
   mobile,
