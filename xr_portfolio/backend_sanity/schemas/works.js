@@ -9,18 +9,33 @@ export default {
         type: 'string',
       }, 
       {
-        name: 'role',
-        title: 'Role',
-        type: 'string',
-      },
-      {
-        name: 'tech',
-        title: 'Technology Used',
+        name: 'summary',
+        title: 'Summary',
         type: 'string',
       },
       {
         name: 'description',
         title: 'Description',
+        type: 'string',
+      },
+      {
+        name: 'typerole',
+        title: 'Type "Role:"',
+        type: 'string',
+      },
+      {
+        name: 'role',
+        title: 'Role',
+        type: 'string',
+      },
+      {
+        name: 'typetoolsused',
+        title: 'Type "Tools Used:"',
+        type: 'string',
+      },
+      {
+        name: 'tech',
+        title: 'Technology Used',
         type: 'string',
       },
       {
